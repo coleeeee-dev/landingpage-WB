@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*Logotipo y nombre del producto*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.containerMenu {
+    background: linear-gradient(to left, white, rgb(234, 243, 240));
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.boxM.col1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.contourLogo {
+    background-color: white;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.logoW {
+    width: 100%;
+    height: 100%;
+}
+
+.productName {
+    padding: 0 30px;
+    font-size: 1rem;
+    font-size: 0.9rem;
+}
+
+.productName h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+/*Opciones informativas*/
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    color: #817f7f;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+li a:hover {
+    background: #50C9A7;
+    border-radius: 25px;
+    transform: .5s;
+}
+
+.btnDemo {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    color: black;
+    background-color: #50C9A7;
+    padding: 0.8rem 2rem;
+    align-items: center;
+    display: flex;
+}

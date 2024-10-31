@@ -1,0 +1,40 @@
+.benefits{
+    padding: 5rem;
+}
+
+.titleB{
+    text-align: left;
+    padding-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerBF{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 2rem;
+}
+
+.boxBF{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxBF img{
+    width: 100px;
+}
+
+.boxBF h3{
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boxBF p{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    color: #817f7f;
+}

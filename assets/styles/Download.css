@@ -1,0 +1,33 @@
+.download{
+    padding: 3rem;
+}
+
+.downloadText {
+    font-size: 2.5rem;
+}
+
+.containerD{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap: 2rem;
+}
+
+.boxD{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxD p {
+    font-size: 1.8rem;
+    padding: 3rem;
+}
+
+.boxD img{
+    width: 40%;
+    height: auto;
+}

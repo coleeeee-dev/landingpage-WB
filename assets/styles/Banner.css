@@ -1,0 +1,62 @@
+/*Barra de opciones*/
+section.banner {
+    background: linear-gradient(to left, rgb(255 255 255), #E0F7F1);
+    padding: 3rem 0;
+}
+
+.containerB {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.boxB.col1 {
+    padding: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hello {
+    font-family: 'Poppins', sans-serif;
+    color: #50C9A7;
+    text-align: left;
+}
+
+.containerB h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #50C9A7;
+    font-size: 2.7rem;
+    text-align: justify;
+}
+
+#txtBanner {
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.btnBanner {
+    font-family: 'Poppins', sans-serif;
+    background: #50C9A7;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.boxB.col2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBanner {
+    width: 75%;
+    height: 28rem;
+}
